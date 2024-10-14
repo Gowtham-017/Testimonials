@@ -1,0 +1,52 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.text{
+  max-width: 180px;
+  background-color: rgb(238, 232, 232);
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 250px;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 1;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  color: #090d0ef9
+}
+h2 {
+  text-align: center;
+  margin-top: 0;
+  color: rgb(1, 2, 3);
+}
+.input {
+  width: 100%;
+  height: 500px;
+  font-size: 16px;
+  padding: 10px;
+}
+.output {
+  width: 100%;
+  height: 500px;
+  font-size: 16px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  overflow:scroll;
+}
+.button{
+  height: 40px;
+  width:70px;
+  margin-left: 380px;
+  background-color: black;
+  color:white;  
+  cursor: pointer;
+}
